@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/color_picker_frame"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true" >
+
+        <fragment
+            android:id="@+id/color_picker_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.androiduipatterns.smashingandroidui.examples.responsive.PickColorFragment" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/color_frame"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/color_picker_frame" >
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/color_info_frame"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/color_frame" >
+    </FrameLayout>
+
+</RelativeLayout>

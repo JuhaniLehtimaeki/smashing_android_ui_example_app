@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androiduipatterns.smashingandroidui.examples"
+    android:versionCode="110"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".ExampleApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.smashing" >
+        <activity android:name=".SmashingAndroidUIExamplesActivity" >
+        </activity>
+        <activity
+            android:name=".example.ExamplesListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".intents.SendIntentExampleActivity" >
+        </activity>
+        <activity android:name=".backstack.BackstackExampleActivity" >
+        </activity>
+        <activity android:name=".backstack.BackstackExampleActivityA" >
+        </activity>
+        <activity android:name=".backstack.BackstackExampleActivityB" >
+        </activity>
+        <activity android:name=".backstack.BackstackExampleActivityC" >
+        </activity>
+        <activity android:name=".animation.LayoutAnimationExampleActivity" >
+        </activity>
+        <activity android:name=".animation.PropertyAnimationExampleActivity" >
+        </activity>
+        <activity android:name=".animation.TweenAnimationExampleActivity" >
+        </activity>
+        <activity android:name=".animation.FrameAnimationExampleActivity" >
+        </activity>
+        <activity android:name=".uiwidgets.UIWidgetsExamplesActivity" >
+        </activity>
+        <activity android:name=".fonts.FontsExampleActivity" >
+        </activity>
+        <activity android:name=".uiwidgets.CustomUIWidgetsExamplesActivity" >
+        </activity>
+        <activity android:name=".layouts.LinearLayoutActivity" />
+        <activity android:name=".layouts.RelativeLayoutActivity" />
+        <activity android:name=".layouts.FrameLayoutActivity" />
+        <activity android:name=".layouts.GridLayoutActivity" />
+        <activity android:name=".layouts.IncludeLayoutActivity" />
+        <activity android:name=".layouts.PaddingLayoutActivity" />
+        <activity android:name=".graphics.GradientActivity" />
+        <activity android:name=".graphics.NinePatchActivity" />
+        <activity android:name=".graphics.XMLActivity" />
+        <activity android:name=".graphics.TilingActivity" />
+        <activity android:name=".graphics.LayersActivity" />
+        <activity android:name=".graphics.RotateScaleActivity" />
+        <activity android:name=".graphics.GraphicsFromCodeActivity" />
+        <activity android:name=".responsive.ResponsiveExampleActivity" />
+        <activity android:name=".responsive.ResponsiveExampleColorDetailsActivity" />
+        <activity android:name=".responsive.ResponsiveExampleColorInfoActivity" />
+        <activity
+            android:name=".keyboard.InputModeResizeActivity"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name=".keyboard.InputModePanActivity"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".keyboard.InputTypeExampleActivity"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name=".keyboard.ActionButtonActivity"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name=".intents.ReceiveIntentExampleActivity"
+            android:label="Smashing Android UI" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="geo" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".intents.ReceiveCustomIntentExampleActivity"
+            android:label="Smashing Android UI" >
+            <intent-filter>
+                <action android:name="com.androiduipatterns.smashingandroidui.examples.EXAMPLE_ACTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".appwidget.ExampleAppWidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/example_widget_info" />
+        </receiver>
+
+        <activity android:name=".notifications.NotificationsExampleActivity" />
+        <activity
+            android:name=".CoverActivity"
+            android:label="@string/title_activity_cover" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" >
+                </action>
+
+                <category android:name="android.intent.category.DEFAULT" >
+                </category>
+                <category android:name="android.intent.category.BROWSABLE" >
+                </category>
+
+                <data android:scheme="smashingandroidui" >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".buy.BuyActivity"
+            android:label="@string/title_activity_buy" >
+        </activity>
+        <activity
+            android:name=".actionbar.ActionBarExampleActivity"
+            android:label="@string/title_activity_action_bar_example" >
+        </activity>
+        <activity
+            android:name=".tabs.TabsExampleActivity"
+            android:label="@string/title_activity_tabs_example" >
+        </activity>
+        <activity
+            android:name=".expand.ExpandInContextActivity"
+            android:label="@string/title_activity_expand_in_context" >
+        </activity>
+    </application>
+
+</manifest>

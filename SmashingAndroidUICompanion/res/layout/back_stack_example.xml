@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/startactivity" 
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/activity_flag_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/activity_a_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Activity A" />
+
+        <Button
+            android:id="@+id/activity_b_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Activity B" />
+
+        <Button
+            android:id="@+id/activity_c_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Activity C" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backstack"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/activity_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Root activity" 
+            android:visibility="gone"/>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:id="@+id/stack"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

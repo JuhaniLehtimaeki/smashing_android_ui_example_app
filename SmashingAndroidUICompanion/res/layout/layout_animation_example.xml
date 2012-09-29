@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    
+    <Button
+        android:id="@+id/set_custom_animation_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="enable custom animation" />
+    
+    <Button
+        android:id="@+id/reset_default_animation_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="default animation" />
+    
+    
+    <Button
+        android:id="@+id/switch_components_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="switch components" />
+
+    <RelativeLayout
+        android:id="@+id/component_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/component_one"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:background="#AA00FF00" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button 1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button 2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/component_two"
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentBottom="true"
+            android:background="#AAFF0000"
+            android:visibility="gone" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button 3" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button 4" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

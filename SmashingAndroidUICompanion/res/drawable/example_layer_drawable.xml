@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <nine-patch android:src="@drawable/example_nine_patch" />
+    </item>
+    <item android:drawable="@drawable/example_circular_gradient"/>
+    <item>
+        <color android:color="#3300FF00" />
+    </item>
+    <item android:drawable="@drawable/tiled_background"/>
+
+</layer-list>

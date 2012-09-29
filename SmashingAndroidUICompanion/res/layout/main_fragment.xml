@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_circular_gradient"
+    android:orientation="vertical" >
+
+    <com.google.android.apps.iosched.ui.widget.DashboardLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/tiled_background" >
+
+        <Button
+            android:id="@+id/button_examples"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawableTop="@drawable/ic_launcher"
+            android:text="Examples" />
+
+        <Button
+            android:id="@+id/button_links"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawableTop="@drawable/ic_launcher"
+            android:text="Links" />
+
+        <Button
+            android:id="@+id/button_about_author"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawableTop="@drawable/ic_launcher"
+            android:text="About Author" />
+    </com.google.android.apps.iosched.ui.widget.DashboardLayout>
+
+</LinearLayout>

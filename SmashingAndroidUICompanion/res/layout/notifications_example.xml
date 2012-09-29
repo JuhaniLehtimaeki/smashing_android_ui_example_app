@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btBasicNotification"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="basicNotification"
+        android:text="basic" />
+
+    <Button
+        android:id="@+id/btBigTextNotification"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="bigTextStyleNotification"
+        android:text="big text" />
+
+    <Button
+        android:id="@+id/btBigPictureNotification"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="bigPictureStyleNotification"
+        android:text="big pic" />
+
+    <Button
+        android:id="@+id/btInboxStyleNotification"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="inboxStyleNotification"
+        android:text="inbox" />
+
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="normal" 
+                android:imeOptions="normal"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="actionUnspecified" 
+                android:imeOptions="actionUnspecified"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="actionNone" 
+                android:imeOptions="actionNone"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="actionGo" 
+                android:imeOptions="actionGo"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="actionSearch" 
+                android:imeOptions="actionSearch"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="actionSend" 
+                android:imeOptions="actionSend"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="actionNext" 
+                android:imeOptions="actionNext"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="actionDone" 
+                android:imeOptions="actionDone"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="actionPrevious" 
+                android:imeOptions="actionPrevious"
+                android:singleLine="true"/>
+
+            
+            
+            
+            
+            
+            
+                  <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="flagNoFullscreen" 
+                android:imeOptions="flagNoFullscreen"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="flagNavigatePrevious" 
+                android:imeOptions="flagNavigatePrevious"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="flagNavigateNext" 
+                android:imeOptions="flagNavigateNext"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="flagNoExtractUi" 
+                android:imeOptions="flagNoExtractUi"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="flagNoAccessoryAction" 
+                android:imeOptions="flagNoAccessoryAction"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="flagNoEnterAction" 
+                android:imeOptions="flagNoEnterAction"
+                android:singleLine="true"/>
+            
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="example button" />
+
+</LinearLayout>

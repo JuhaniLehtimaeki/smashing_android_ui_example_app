@@ -1,7 +1,8 @@
 smashing_android_ui_example_app
 ===============================
 
-I'll be adding the source code here in next few days.
+This is a companion app and example source code repository for Smashing Android UI book.
 
-Cheers,
- Juhani
+For more info about the book: http://www.androiduipatterns.com/p/smashing-android-ui.html
+
+The app is also available from Google Play: https://play.google.com/store/apps/details?id=com.androiduipatterns.smashingandroidui.examples

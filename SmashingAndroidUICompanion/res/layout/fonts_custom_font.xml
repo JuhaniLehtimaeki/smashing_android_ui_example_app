@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/CustomFontExampleTextOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Custom font example, Gamaliel"
+        android:textSize="30sp" >
+    </TextView>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:src="@drawable/gradient_line" />
+
+    <TextView
+        android:id="@+id/CustomFontExampleTextTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Custom font example, DarkGardenMK"
+        android:textSize="30sp" >
+    </TextView>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:src="@drawable/gradient_line" />
+
+    <TextView
+        android:id="@+id/CustomFontExampleTextThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Custom font example, SchoolCursive"
+        android:textSize="30sp" >
+    </TextView>
+
+</LinearLayout>

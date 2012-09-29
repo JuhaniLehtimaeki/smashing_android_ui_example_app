@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_settings"
+        android:title="delete"
+        android:orderInCategory="100"
+        android:showAsAction="always" 
+        android:icon="@android:drawable/ic_menu_delete"/>
+</menu>
