@@ -166,7 +166,7 @@ public class ExamplesController {
         items.add(new ExampleItem("Responsive design example", 27, 16,
                 ResponsiveExampleActivity.class, 11));
 
-        items.add(new ExampleItem("Contextueal Action Bar", 28, 18,
+        items.add(new ExampleItem("Contextual Action Bar", 28, 18,
                 ActionBarExampleActivity.class, 11));
 
         items.add(new ExampleItem("Dashboard", 29, 19,
