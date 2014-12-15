@@ -91,7 +91,7 @@ public class ExamplesController {
         items.add(new ExampleItem("Back stack", 2, 7,
                 BackstackExampleActivity.class, 8));
 
-        items.add(new ExampleItem("Notifications", 100, 7,
+        items.add(new ExampleItem("Notifications", 100, 9,
                 NotificationsExampleActivity.class, 16));
 
         items.add(new ExampleItem("Input method resize", 3, 10,

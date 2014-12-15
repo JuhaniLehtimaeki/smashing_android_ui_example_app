@@ -27,7 +27,7 @@ public class RelativeLayoutActivity extends SherlockActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		setTitle("LinearLayout");
+		setTitle("RelativeLayout");
 
 		setContentView(R.layout.relativelayout_example);
 
